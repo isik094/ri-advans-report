@@ -5,6 +5,9 @@ declare(strict_types=1);
 use report\ReportGenerate;
 use report\enums\ReportTypeEnums;
 
+
+// это типа контроллер и мы тут принимаем данные и валидируем их
+
 $data = [
     'firstName' => 'Ivan',
     'lastName' => 'Ivanov',
